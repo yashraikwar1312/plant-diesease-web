@@ -1,6 +1,5 @@
+tensorflow
 streamlit
-tensorflow==2.12.0
-gdown
-opencv-python
+pillow
 numpy
-Pillow
+opencv-python
