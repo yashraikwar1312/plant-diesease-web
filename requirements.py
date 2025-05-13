@@ -1,5 +1,5 @@
 streamlit
-tensorflow==2.14.0
+tensorflow==2.12.0
 gdown
 opencv-python
 numpy
