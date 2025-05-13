@@ -100,3 +100,11 @@ if image:
         <p><strong>Suggestion:</strong> {suggestion}</p>
     </div>
     """, unsafe_allow_html=True)
+    import gdown
+import os
+
+# Check if the model already exists to avoid re-downloading
+if not os.path.exists("best_model.keras"):
+    url = 'https://drive.google.com/uc?id=1ZMgmxJ37EAwY5jMdzntK4ysMCxnRe5iW'
+    output = 'best_model.keras'
+    gdown.download(url, output, quiet=False)
